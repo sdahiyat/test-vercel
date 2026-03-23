@@ -1,0 +1,12 @@
+{
+  "schema": "cofabric.task_status.v1",
+  "task_number": 14,
+  "title": "Navigation, Layout, and Mobile Responsiveness",
+  "status": "pending",
+  "priority": "medium",
+  "description": "Build the complete navigation system and ensure app-wide responsive behavior. Create header with logo, search, upload button, and user menu. Implement mobile bottom navigation bar for key actions. Build user dropdown menu with profile, settings, and logout. Create responsive container system that adapts layouts across breakpoints. Implement mobile hamburger menu for additional options. Add breadcrumb navigation where appropriate. Ensure all pages built by other tasks render correctly on mobile (320px) through desktop (1920px+). Out of scope: PWA features, native app.",
+  "completion_summary": null,
+  "pr_url": null,
+  "pr_doc": null,
+  "updated_at": "2026-03-23T18:52:17.195Z"
+}

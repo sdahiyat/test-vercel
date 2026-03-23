@@ -1,0 +1,12 @@
+{
+  "schema": "cofabric.task_status.v1",
+  "task_number": 12,
+  "title": "Content Moderation System",
+  "status": "pending",
+  "priority": "low",
+  "description": "Implement content moderation to prevent policy-violating photos. Integrate OpenAI moderation API to automatically scan uploads for inappropriate content. Create moderation status field on photos (pending, approved, rejected, flagged_for_review). Implement moderation queue admin page for manual review of flagged content. Block rejected photos from appearing in feeds or public profiles. Allow users to appeal rejections. Define basic content policy (no explicit content, no violence, no illegal content). Out of scope: user reporting of content, moderator role management.",
+  "completion_summary": null,
+  "pr_url": null,
+  "pr_doc": null,
+  "updated_at": "2026-03-23T18:52:16.252Z"
+}

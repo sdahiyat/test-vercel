@@ -1,0 +1,12 @@
+{
+  "schema": "cofabric.task_status.v1",
+  "task_number": 3,
+  "title": "Photo Upload Flow with EXIF Handling",
+  "status": "pending",
+  "priority": "high",
+  "description": "Build the complete photo upload experience including upload page UI, drag-and-drop support, file validation (type, size limits), EXIF metadata extraction and storage (camera info, settings, GPS with privacy option to strip), upload progress indication, image optimization (generate thumbnails and feed-sized versions), and storage to Supabase. Create the photo record in database with all metadata. Implement upload limits check for free tier users (limit TBD, default to 50 photos). Out of scope: AI analysis integration, sharing to feed.",
+  "completion_summary": null,
+  "pr_url": null,
+  "pr_doc": null,
+  "updated_at": "2026-03-23T18:52:10.293Z"
+}

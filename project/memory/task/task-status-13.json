@@ -1,0 +1,12 @@
+{
+  "schema": "cofabric.task_status.v1",
+  "task_number": 13,
+  "title": "Photo Detail View and Sharing",
+  "status": "pending",
+  "priority": "medium",
+  "description": "Build the dedicated photo detail page showing full-size image with all metadata, AI insights, comments, and engagement features. Display EXIF data in organized panel (camera, settings, location if not stripped). Show AI-generated tags and feedback. Include social sharing buttons (copy link, share to Twitter/Facebook). Implement image zoom/lightbox for viewing details. Add previous/next navigation when coming from feed or profile context. Create OpenGraph meta tags for rich link previews when shared. Out of scope: image download, print ordering.",
+  "completion_summary": null,
+  "pr_url": null,
+  "pr_doc": null,
+  "updated_at": "2026-03-23T18:52:16.686Z"
+}

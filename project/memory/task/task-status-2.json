@@ -1,0 +1,12 @@
+{
+  "schema": "cofabric.task_status.v1",
+  "task_number": 2,
+  "title": "Authentication System and Protected Routes",
+  "status": "pending",
+  "priority": "high",
+  "description": "Implement complete user authentication flow using Supabase Auth including registration, login, logout, password reset, and session management. Create auth UI pages (sign-up, sign-in, forgot password). Implement protected route middleware/wrapper for App Router that redirects unauthenticated users. Set up auth state provider for client components. Create user profile record in database upon registration. Out of scope: OAuth providers, email verification flows beyond Supabase defaults.",
+  "completion_summary": null,
+  "pr_url": null,
+  "pr_doc": null,
+  "updated_at": "2026-03-23T18:52:09.596Z"
+}

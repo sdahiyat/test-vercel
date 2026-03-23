@@ -1,0 +1,12 @@
+{
+  "schema": "cofabric.task_status.v1",
+  "task_number": 10,
+  "title": "Settings and Account Management",
+  "status": "pending",
+  "priority": "medium",
+  "description": "Build settings page with multiple sections: Profile settings (redirect to profile edit), Account settings (email change, password change), Privacy settings (default GPS stripping preference, profile visibility), Notification preferences (placeholder for future email notifications), and Data management (download my data, delete account for GDPR compliance). Implement account deletion with confirmation flow that removes all user data. Out of scope: actual email notifications, detailed privacy controls.",
+  "completion_summary": null,
+  "pr_url": null,
+  "pr_doc": null,
+  "updated_at": "2026-03-23T18:52:14.978Z"
+}
