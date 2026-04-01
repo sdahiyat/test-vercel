@@ -1,12 +1,12 @@
 {
   "schema": "cofabric.task_status.v1",
   "task_number": 11,
-  "title": "Freemium Subscription System with Stripe",
+  "title": "Content Moderation System",
   "status": "pending",
-  "priority": "medium",
-  "description": "Implement the subscription system for PhotoBuddy's freemium model. Integrate Stripe for payment processing. Create subscription tiers (Free, Pro at $10/month). Build subscription management UI showing current plan and upgrade options. Implement Stripe webhooks for subscription lifecycle events (created, updated, cancelled, payment failed). Enforce tier-based limits throughout app (upload limits, AI analysis limits). Create billing history page. Out of scope: annual plans, team plans, refunds handling.",
+  "priority": "low",
+  "description": "",
   "completion_summary": null,
   "pr_url": null,
   "pr_doc": null,
-  "updated_at": "2026-03-23T18:52:15.768Z"
+  "updated_at": "2026-04-01T01:08:45.111Z"
 }

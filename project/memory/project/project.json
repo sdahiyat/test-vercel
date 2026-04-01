@@ -54,25 +54,10 @@ Just get the basic upload and feed working first. AI stuff can come later. We ne
 - Someone mentioned we need EXIF data handling
 - What about content moderation?
 - GDPR stuff??
+
 ---
+
 ## Scaffolding
 
-**Stack:** Next.js 14, TypeScript, Supabase, OpenAI Vision API, Tailwind CSS
-**Key dependencies:** @supabase/supabase-js, openai, lucide-react, tailwind-merge
-**Scaffold files:**
-- package.json — Next.js app with Supabase, OpenAI, and Tailwind dependencies
-- tsconfig.json — TypeScript config with path aliases (@/*)
-- next.config.js — Image optimization for Supabase storage
-- tailwind.config.ts — Tailwind with custom color system
-- src/app/layout.tsx — Root layout with Inter font and metadata
-- src/app/page.tsx — Landing page explaining PhotoBuddy's features
-- src/lib/supabase.ts — Supabase client initialization (regular and admin)
-- src/lib/openai.ts — OpenAI client with photo analysis helper function
-- src/lib/utils.ts — Utility functions (cn, formatFileSize, generateSlug)
-- .env.example — Environment variables template
-**Auth approach:** Supabase Auth (not yet implemented)
-**Database:** Supabase/Postgres (not yet configured)
-**Existing patterns tasks should follow:** Import Supabase client from '@/lib/supabase', use OpenAI from '@/lib/openai', App Router with server components by default, Tailwind with custom color system
-**What tasks need to build:** User authentication system, database schema and migrations, photo upload functionality, user profiles, social feed, follow/unfollow system, like/comment features, AI photo analysis integration, search functionality, settings pages, freemium subscription system, content moderation, image storage setup
+**Stack:** Next.js 14, TypeScript, Supabase, OpenAI Vision API, Tailwind CSS**Key dependencies:** @supabase/supabase-js, openai, lucide-react, tailwind-merge**Scaffold files:**- package.json — Next.js app with Supabase, OpenAI, and Tailwind dependencies- tsconfig.json — TypeScript config with path aliases (@/*)- next.config.js — Image optimization for Supabase storage- tailwind.config.ts — Tailwind with custom color system- src/app/layout.tsx — Root layout with Inter font and metadata- src/app/page.tsx — Landing page explaining PhotoBuddy's features- src/lib/supabase.ts — Supabase client initialization (regular and admin)- src/lib/openai.ts — OpenAI client with photo analysis helper function- src/lib/utils.ts — Utility functions (cn, formatFileSize, generateSlug)- .env.example — Environment variables template**Auth approach:** Supabase Auth (not yet implemented)**Database:** Supabase/Postgres (not yet configured)**Existing patterns tasks should follow:** Import Supabase client from '@/lib/supabase', use OpenAI from '@/lib/openai', App Router with server components by default, Tailwind with custom color system**What tasks need to build:** User authentication system, database schema and migrations, photo upload functionality, user profiles, social feed, follow/unfollow system, like/comment features, AI photo analysis integration, search functionality, settings pages, freemium subscription system, content moderation, image storage setup
 
-All scaffold files live in the `project/` subdirectory. Tasks should add new files on top of this foundation — do not recreate or overwrite scaffold files unless fixing a specific issue.

@@ -1,12 +1,12 @@
 {
   "schema": "cofabric.task_status.v1",
   "task_number": 4,
-  "title": "User Profiles and Avatar Management",
+  "title": "User Profiles & Follow System",
   "status": "pending",
-  "priority": "medium",
-  "description": "Build user profile pages displaying user information, their uploaded photos in a grid, follower/following counts, and bio. Implement profile editing including display name, bio, and avatar upload. Create the profile URL structure (/u/[username] or /profile/[id]). Show appropriate states for own profile vs. viewing others. Implement avatar upload with cropping/resizing. Out of scope: follow/unfollow buttons (separate task), settings page.",
+  "priority": "high",
+  "description": "",
   "completion_summary": null,
   "pr_url": null,
   "pr_doc": null,
-  "updated_at": "2026-03-23T18:52:10.919Z"
+  "updated_at": "2026-04-01T01:08:41.230Z"
 }

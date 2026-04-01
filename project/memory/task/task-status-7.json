@@ -1,12 +1,12 @@
 {
   "schema": "cofabric.task_status.v1",
   "task_number": 7,
-  "title": "Likes and Comments with Optimistic Updates",
+  "title": "AI Photo Analysis Integration",
   "status": "pending",
   "priority": "medium",
-  "description": "Implement like and comment functionality for photos. Add like button to photo cards with optimistic UI updates. Build comment system with threaded display on photo detail page, comment composition, and deletion of own comments. Show like count and list of users who liked. Implement comment count display. Consider real-time updates using Supabase Realtime for live comment/like updates (stretch goal). Out of scope: comment editing, nested replies, mentions.",
+  "description": "",
   "completion_summary": null,
   "pr_url": null,
   "pr_doc": null,
-  "updated_at": "2026-03-23T18:52:13.092Z"
+  "updated_at": "2026-04-01T01:08:42.886Z"
 }

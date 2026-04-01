@@ -1,12 +1,12 @@
 {
   "schema": "cofabric.task_status.v1",
   "task_number": 6,
-  "title": "Social Feed with Infinite Scroll",
+  "title": "Likes & Comments System",
   "status": "pending",
-  "priority": "high",
-  "description": "Build the home feed page showing photos from followed users in reverse chronological order. Implement infinite scroll with efficient pagination using cursor-based approach. Create the photo card component used throughout the app (feed, profile, search) showing image, author info, timestamp, and engagement counts. Include empty state for users following nobody. Implement pull-to-refresh on mobile. Out of scope: algorithmic ranking, real-time updates for new posts.",
+  "priority": "medium",
+  "description": "",
   "completion_summary": null,
   "pr_url": null,
   "pr_doc": null,
-  "updated_at": "2026-03-23T18:52:12.648Z"
+  "updated_at": "2026-04-01T01:08:42.271Z"
 }
